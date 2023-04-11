@@ -1,7 +1,7 @@
 **LAB REPORT 1**
 
 
-![Image](Screenshot 2023-04-06 at 4.22.15 PM.png)
+![Image](image1.png)
 
 
 First visit https://code.visualstudio.com/ in order to install VSCode. I personally did not have to go through this step as my Mac computer already had VSCode installed.

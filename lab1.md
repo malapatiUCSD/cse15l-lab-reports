@@ -34,4 +34,5 @@ It returns the output:
 
 The following command accessed the hello.txt in the cs15lsp23 folder and returned the contents of the file. Like this there are plently of comments you can run and files you can reach with this.
 
-In the screenshot above 
+In the screenshot above after remotely connecting using `ssh cs15lsp23lm@ieng6.ucsd.edu` and entering my password, I run 2 commands. The `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` command follow the /home/linux/ieng6/cs15lsp23/public/hello.txt path and then reads the contents of the the hello.txt file and prints it in the terminal. This following line after the command is ran displays the output: "Hello!". After this command, I run the `cd ~` command. This command changes the current directory back to the home directory which is /home. Those are the two commands that are ran and an explanation of what is happening in this screenshot.
+

@@ -27,8 +27,7 @@ So to remotely connect I would enter `ssh cs15lsp23lm@ieng6.ucsd.edu` followed b
 
 ![Image](image3.png)
 
-Using `cd` for changing the current directory into the desired or target directory, `ls` for listing all of the files, `pwd` for printing the full path of the current working directory, `cp` for copying files and directories, `cat` for reading file data and printing the output in the terminal and e.t.c. We can run different commands and access different files through our account. As seen in the picture above I run this comment
-"[cs15lsp23lm@ieng6-202]:~:2$ `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`"
+Using `cd` for changing the current directory into the desired or target directory, `ls` for listing all of the files, `pwd` for printing the full path of the current working directory, `cp` for copying files and directories, `cat` for reading file data and printing the output in the terminal and e.t.c. We can run different commands and access different files through our account. As seen in the picture above I run this comment "[cs15lsp23lm@ieng6-202]:~:2$ `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`"
 
 It returns the output:
 "Hello!"

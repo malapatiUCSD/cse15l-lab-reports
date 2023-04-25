@@ -1,7 +1,7 @@
-<h1>**LAB REPORT 1**</h1>
+<h1>LAB REPORT 1</h1>
 
 
-<h2>**Installing VScode**</h2>
+<h2>Installing VScode</h2>
 
 ![Image](image1.png)
 
@@ -12,7 +12,7 @@ The image above should be the home page and what pops up after installation and 
 
 
 
-<h2>**Remotely Connecting**</h2>
+<h2>Remotely Connecting</h2>
 
 ![Image](image2.png)
 
@@ -23,7 +23,7 @@ So to remotely connect I would enter "ssh cs15lsp23lm@ieng6.ucsd.edu" followed b
 
 
 
-<h2>**Trying Some Commands**</h2>
+**<h2>Trying Some Commands</h2>**
 
 ![Image](image3.png)
 

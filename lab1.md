@@ -28,7 +28,7 @@ So to remotely connect I would enter `ssh cs15lsp23lm@ieng6.ucsd.edu` followed b
 ![Image](image3.png)
 
 Using `cd`, `ls`, `pwd`, `cp`, and e.t.c. We can run different commands and access different files through our account. As seen in the picture above I run this comment
-"[cs15lsp23lm@ieng6-202]:~:2$ cat /home/linux/ieng6/cs15lsp23/public/hello.txt"
+"[cs15lsp23lm@ieng6-202]:~:2$ `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`"
 
 It returns the output:
 "Hello!"

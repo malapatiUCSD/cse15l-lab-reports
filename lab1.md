@@ -18,12 +18,12 @@ The image above should be the home page and what pops up after installation and 
 
 After correctly attaining your password and username for your account at [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) for the class you are doing this for. Open up a new terminal by clicking on the terminal button on the top left and then click "New Terminal".
 Then type "ssh " followed your course number semester and two given initals and then "@ieng6.ucsd.edu" for example mine was "cs15lsp23lm@ieng6.ucsd.edu". 
-So to remotely connect I would enter "ssh cs15lsp23lm@ieng6.ucsd.edu" followed by (yes)  and then enter my password. This is shown in the image above. When typing you password it will not appear and that is okay! It is a security measure.
+So to remotely connect I would enter `ssh cs15lsp23lm@ieng6.ucsd.edu` followed by (yes)  and then enter my password. This is shown in the image above. When typing you password it will not appear and that is okay! It is a security measure.
 
 
 
 
-**<h2>Trying Some Commands</h2>**
+<h2>Trying Some Commands</h2>
 
 ![Image](image3.png)
 

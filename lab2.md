@@ -43,9 +43,20 @@ class Handler implements URLHandler {
 }
 ```
 
+<h3>Step 1 Screenshot</h3>
+
+
 ![Image](lab2image1.png)
+
+<h3>Step 2 Screenshot</h3>
+
+
 ![Image](lab2image2.png)
+
+
 <h2>Part 2: Lab 3 Bug</h2>
+
+
 ![Image](lab2image.png)
 
 Failing Input

@@ -1,7 +1,7 @@
 <h1>LAB REPORT 2</h1>
 <h2>Part 1: StringServer</h2>
 <h3>StringServer Code</h3>
-```
+`
 import java.io.IOException;
 import java.net.URI;
 
@@ -40,7 +40,8 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-```
+`
+
 ![Image](lab2image1.png)
 ![Image](lab2image2.png)
 <h2>Part 2: Lab 3 Bug</h2>

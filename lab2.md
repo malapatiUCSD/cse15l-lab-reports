@@ -68,5 +68,5 @@ An example of a failing input would be `int[] input1 = {1, 2, 3};` It would retu
 
 
 <h2>Part 3: What I Learned</h2>
-During the second week of CSE15L lab, I learned something interesting relating to port access. It was not allowed for multiple users on the same computer to utilize the same port simultaneously. Ports serve as channels through which computers transmit internet and network messages when connected to a server. Thus, if multiple students were using an ieng6-201 computer, they would need to select different port numbers of their respective web servers for things to operate properly. This also happened to me when trying to call the same port in ``java StringServer 4000``   multiple times for example.
+During the second week of CSE15L lab, I learned something interesting relating to port access. It was not allowed for multiple users on the same computer to utilize the same port simultaneously. Ports serve as channels through which computers transmit internet and network messages when connected to a server. Thus, if multiple students were using an ieng6-201 computer, they would need to select different port numbers of their respective web servers for things to operate properly. This also happened to me when trying to call the same port in `java StringServer 4000` multiple times for example.
 

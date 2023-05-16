@@ -48,12 +48,14 @@ class Handler implements URLHandler {
 
 ![Image](lab2image1.png)
 
+In the screenshot above (Step 1), there is a server request which calls the method `handleRequest` from the `Handler` class. When you use the arguments and field values of `localhost:4001` and `/add-message?s=hello` together, it's like sending a special request to the server. This request asks the server to add the word "Hello" to a specific place. The `localhost:4001` part tells the server where to send the request. And the `/add-message` part is the server's way of knowing that it should handle the request to add a message. Lastly, the `?s=hello` part carries the important information, which is the word "Hello" that you want to be added by the server. In the handler class implementation, the `StringBuilder` field called `sbuild` is the only field that affects the server output. When the `Handler` class is invoked, it appends the string given to `sbuild`  with a `\n` after and this is how it modifies the server output.
+
 <h3>Step 2 Screenshot</h3>
 
 
 ![Image](lab2image2.png)
 
-
+In the screenshot above (Step 2), there is a server request which calls the method `handleRequest` from the `Handler` class. When you use the arguments and field values of `localhost:4001` and `/add-message?s=hello` together, it's like sending a special request to the server. This request asks the server to add the word "Hello" to a specific place. The `localhost:4001` part tells the server where to send the request. And the `/add-message` part is the server's way of knowing that it should handle the request to add a message. Lastly, the `?s=hello` part carries the important information, which is the word "Hello" that you want to be added by the server. In the handler class implementation, the `StringBuilder` field called `sbuild` is the only field that affects the server output. When the `Handler` class is invoked, it appends the string given to `sbuild`  with a `\n` after and this is how it modifies the server output.
 <h2>Part 2: Lab 3 Bug</h2>
 
 

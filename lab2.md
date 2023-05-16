@@ -56,6 +56,9 @@ In the screenshot above (Step 1), there is a server request which calls the meth
 ![Image](lab2image2.png)
 
 In the screenshot above (Step 2), there is another server request which calls the method `handleRequest` from the `Handler` class. When you use the arguments and field values of `localhost:4001` and `/add-message?s=How%20are%20you` together, it requests the server to add the phrase "How are you" to the output. The `%20` is used to bridge the spaces between the "How are you" and inform the server that there should be a space. Again, the `localhost:4001` part tells the server where to send the request. And the `/add-message` part is the server's way of knowing that it should handle the request to add a message. Lastly, the `?s=How%20are%20you` part carries the output information, which is the phrase "How are you". In the handler class implementation, the `StringBuilder` field called `sbuild` affects the server output. When the `Handler` class is called, it adds the string given to `sbuild` ("How are you") with a `\n` after.
+
+
+
 <h2>Part 2: Lab 3 Bug</h2>
 
 

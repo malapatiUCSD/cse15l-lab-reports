@@ -119,6 +119,11 @@ static int[] reversed(int[] arr) {
 <h4>Explanation</h4>
 The problem with the orginal Reversed method from ArrayExamples.java is that it creates a new array "newArray" of the same length as "arr" but then it iterates through the "newArray" which is instantiated by 0's and then copies them back to "arr", making the "arr" array all 0's and then return the "arr" array of 0's. That is why the input `{0,0,0}` works as it leads right back to 0's `{0,0,0}`, but the input `{1,11,111}` doesn't work as it returns `{0,0,0}` instead of `{111,11,1}`. In order to fix this issue we must iterate through the "arr" array instead and copy over the values in reverse order to the "newArray" array and then return the "newArray" with the actual reversed values of "arr". I fixed this by swapping the `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.length - i - 1];`, essentially swapping the "newArray" and "arr"'s places. Lastly, I changed the `return arr;` to `return newArray;` in order to return the new reversed array instead of the old one. That is the bug and how I fixed it. 
 
+<h4>Fixed Bug Symptom: Passed Tests</h4>
+![Image](lab2image4.png)
+
+After the bug fix, both JUnit tests now pass and the Reversed method runs correctly.
+
 <h2>Part 3: What I Learned</h2>
 
 During the second week of CSE15L lab, I learned something interesting relating to port access. It was not allowed for multiple users on the same computer to uuse the same port simultaneously. When connected to a server, ports serve as channels through which computers transmit internet and network messages. Thus, if multiple students were using an ieng6-201 computer, they would need to select different port numbers of their respective web servers for things to operate properly. This also happened to me when trying to call the same port in `java StringServer 4000` multiple times for example.

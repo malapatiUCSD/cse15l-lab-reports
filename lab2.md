@@ -122,7 +122,7 @@ The problem with the orginal Reversed method from ArrayExamples.java is that it 
 <h4>Fixed Bug Symptom: Passed Tests</h4>
 ![Image](lab2image4.png)
 
-After the bug fix, both JUnit tests now pass and the Reversed method runs correctly.
+After the bug fix, both JUnit tests now pass and the Reversed method now runs correctly.
 
 <h2>Part 3: What I Learned</h2>
 

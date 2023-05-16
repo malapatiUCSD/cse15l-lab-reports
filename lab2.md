@@ -61,6 +61,8 @@ In the screenshot above (Step 2), there is another server request which calls th
 
 <h2>Part 2: Lab 3 Bug</h2>
 <h3>Failure Inducing Input</h3>
+
+
 `
 @Test
 public void failureTestReversed() {
@@ -74,6 +76,8 @@ public void failureTestReversed() {
 
 
 <h3>Non-Failure Inducing Input</h3>
+
+
 `
 @Test
 public void nonFailureTestReversed() {

@@ -96,18 +96,28 @@ A non-failure inducing input for the Reversed method from ArrayExamples.java in 
 
 <h4>Before</h4>
 ```
-// Returns a *new* array with all the elements of the input array in reversed
-  // order
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = newArray[arr.length - i - 1];
-    }
-    return arr;
+// Incorrectly returns a *new* array with all the elements of the input array in reversed order
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
   }
+  return arr;
+}
 ```
 <h4>After</h4>
+```
+// Correctly returns a *new* array with all the elements of the input array in reversed order
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    newArray[i] = arr[arr.length - i - 1];
+  }
+  return newArray;
+}
+```
 <h4>Explanation</h4>
+The problem with the orginal Reversed method from ArrayExamples.java is that it creates a new array "newArray" of the same length as "arr" but then it iterates through the "newArray" which is instantiated by 0's and then copies them back to "arr", making the "arr" array all 0's and then return the "arr" array of 0's. That is why the input `{0,0,0}` works as it leads right back to 0's `{0,0,0}`, but the input `{1,11,111}` doesn't work as it returns `{0,0,0}` instead of `{111,11,1}`. In order to fix this issue we must iterate through the "arr" array instead and copy over the values in reverse order to the "newArray" array and then return the "newArray" with the actual reversed values of "arr". I fixed this by swapping the `arr[i] = newArray[arr.length - i - 1];` to `newArray[i] = arr[arr.length - i - 1];`, essentially swapping the "newArray" and "arr"'s places. Lastly, I changed the `return arr;` to `return newArray;` in order to return the new reversed array instead of the old one. That is the bug and how I fixed it. 
 
 <h2>Part 3: What I Learned</h2>
 

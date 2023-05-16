@@ -60,18 +60,38 @@ In the screenshot above (Step 2), there is another server request which calls th
 
 
 <h2>Part 2: Lab 3 Bug</h2>
+<h3>Failure Inducing Input</h3>
+`
+@Test
+public void failureTestReversed() {
+  int[] input1 = {1,11,111};
+  assertArrayEquals(new int[]{111,11,1}, ArrayExamples.reversed(input1));
+}
+`
+
+<h4>Failure Symptom</h4>
+![Image](lab2image3.png)
 
 
-![Image](lab2image.png)
+<h3>Non-Failure Inducing Input</h3>
+`
+@Test
+public void nonFailureTestReversed() {
+  int[] input1 = {0,0,0};
+  assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input1));
+}
+`
 
-Failing Input
 
-This code was attempting to flip the arraylist but the bug was it flipped it twice, returning the elements to the same index as before.
-This problem arose because the program iterates through the entire arraylist instead of just half of the indexes and flipping the first half.
-An example of a failing input would be `int[] input = {};` It would return `{}`. As expected
-An example of a failing input would be `int[] input1 = {1, 2, 3};` It would return `1, 2, 3`. 
+<h4>Non-Failure Symptom</h4>
+![Image](lab2image4.png)
 
+
+<h3>The Bug</h3>
+<h4>Before</h4>
+<h4>After</h4>
+<h4>Explanation</h4>
 
 <h2>Part 3: What I Learned</h2>
 
-During the second week of CSE15L lab, I learned something interesting relating to port access. It was not allowed for multiple users on the same computer to utilize the same port simultaneously. When connected to a server, ports serve as channels through which computers transmit internet and network messages. Thus, if multiple students were using an ieng6-201 computer, they would need to select different port numbers of their respective web servers for things to operate properly. This also happened to me when trying to call the same port in `java StringServer 4000` multiple times for example.
+During the second week of CSE15L lab, I learned something interesting relating to port access. It was not allowed for multiple users on the same computer to uuse the same port simultaneously. When connected to a server, ports serve as channels through which computers transmit internet and network messages. Thus, if multiple students were using an ieng6-201 computer, they would need to select different port numbers of their respective web servers for things to operate properly. This also happened to me when trying to call the same port in `java StringServer 4000` multiple times for example.

@@ -66,8 +66,8 @@ In the screenshot above (Step 2), there is another server request which calls th
 ```
 @Test
 public void failureTestReversed() {
-int[] input1 = {1,11,111};
-assertArrayEquals(new int[]{111,11,1}, ArrayExamples.reversed(input1));
+     int[] input1 = {1,11,111};
+     assertArrayEquals(new int[]{111,11,1}, ArrayExamples.reversed(input1));
 }
 ```
 
@@ -81,8 +81,8 @@ assertArrayEquals(new int[]{111,11,1}, ArrayExamples.reversed(input1));
 ```
 @Test
 public void nonFailureTestReversed() {
-int[] input1 = {0,0,0};
-assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input1));
+     int[] input1 = {0,0,0};
+     assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input1));
 }
 ```
 

@@ -71,6 +71,7 @@ public void failureTestReversed() {
 }
 ```
 
+A failure inducing input for the Reversed method from ArrayExamples.java in the JUnit Test above would be `int[] input1 = {1,11,111};` as it returns `{0,0,0}` instead of `{111,11,1}`.
 <h4>Failure Symptom</h4>
 ![Image](lab2image3.png)
 
@@ -86,13 +87,25 @@ public void nonFailureTestReversed() {
 }
 ```
 
-
+A non-failure inducing input for the Reversed method from ArrayExamples.java in the JUnit Test above would be `int[] input1 = {0,0,0};` as it returns `{0,0,0}` as it precisely should.
 <h4>Non-Failure Symptom</h4>
 ![Image](lab2image4.png)
 
 
 <h3>The Bug</h3>
+
 <h4>Before</h4>
+```
+// Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
 <h4>After</h4>
 <h4>Explanation</h4>
 

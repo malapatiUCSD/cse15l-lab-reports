@@ -149,6 +149,6 @@ madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -n "stairwells" chapter-9.t
 The `grep -n` command takes in a string argument and a text file and prints entire line including the line numbers in that text file that contain the given string input. This command is useful to understand which lines in the text include the string input and where it is used.
 
 ---
-**Source:** For all of the `grep` commands, I used the site [https://www.geeksforgeeks.org/grep-command-in-unixlinux/as](https://www.geeksforgeeks.org/grep-command-in-unixlinux/as) in order to understand the command line options and their functionalities.
+**Source:** For all of the `grep` commands, I used the site [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/) in order to understand the command line options and their functionalities.
 
 

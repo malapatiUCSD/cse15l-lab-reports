@@ -2,6 +2,7 @@
 <h2>Command Options: Grep Command</h2>
 
 <h3>Grep -c Command</h3>
+
 Example 1
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -c "and" chapter-6.txt
@@ -9,6 +10,7 @@ madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -c "and" chapter-6.txt
 ```
 484
 ```
+
 Example 2
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -c "Air" chapter-10.txt 
@@ -20,6 +22,7 @@ The `grep -c` command is command option that takes in the string input and .txt 
 
 
 <h3>Grep -l Command</h3>
+
 Example 1
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -l "Bomb" *
@@ -60,7 +63,9 @@ chapter-9.txt
 preface.txt
 ```
 The `grep -l` command is a great command option that prints the name of the text files in the current directory that have the given string argument. This command option is used to find files and sort the files together based on if they contain the string argument.
+
 <h3>Grep -i Command</h3>
+
 Example 1
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -i "door" chapter-9.txt
@@ -84,6 +89,7 @@ madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -i "door" chapter-9.txt
                 civilians were not informed in fire drills that roof doors were locked, that rooftop
                 the deviations in the stairways and by smoke doors. This confusion delayed the
 ```
+
 Example 2
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -i "west" chapter-13.3.txt
@@ -97,6 +103,7 @@ madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -i "west" chapter-13.3.txt
 The `grep -i` command takes in a string argument and a text file and prints every line in the text file that contains the string input, but unlinke `grep -n` it is not case sensitive nor does it return the line number that the string argument occurs on. This command is useful to understand where in the text the string input is regardless of being upper-case or lower-case. It is good to use `grep -i` if a string is likely to be used both upper-case and lower-case throughout a text.
 
 <h3>Grep -n Command</h3>
+
 Example 1
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -n "once" chapter-10.txt
@@ -108,6 +115,7 @@ madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -n "once" chapter-10.txt
 440:                concerned that Iraq would take advantage of the 9/11 attacks. She recalled that in
 445:            A Defense Department paper for the Camp David briefing book on the strategic concept
 ```
+
 Example 2
 ```
 madhavalapati@Madhavs-MacBook-Pro-2 911report % grep -n "stairwells" chapter-9.txt

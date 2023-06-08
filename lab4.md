@@ -39,13 +39,7 @@ Now that we know there is one failure on the tests, we can do open a text editor
 <img width="1512" alt="Screenshot 2023-06-07 at 10 59 10 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/c32cbbbe-89d3-40ab-8b27-31b5e0317dd4">
 
 
-To check on what was wrong with the code, I typed
-
-
-`<down>`
-
-until I saw what was causing the error
-and then I found out that the final (bottom) *index1* is supposed to be *index2*, so in order to fix this I typed `<right>` until I reached *1* and then I typed `<delete><2>` to change it to *2*. Finally,
+To check on what was wrong with the code, I typed `<down>` until I saw what was causing the error and then I found out that the final (bottom) *index1* is supposed to be *index2*, so in order to fix this I typed `<right>` until I reached *1* and then I typed `<delete> <2>` to change it to *2*. Finally,
 after making all these changes, I typed `<Ctrl-O> <enter>` to write and save the changes and `<Ctrl-X>` to exit the nano 
 text editor. 
 <h2>Step 8: Run the tests, demonstrating that they now succeed</h2>

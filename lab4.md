@@ -42,9 +42,7 @@ Now that we know there is one failure on the tests, we can do open a text editor
 To check on what was wrong with the code, I typed
 
 
-`
-<down>
-`
+`<down>`
 
 until I saw what was causing the error
 and then I found out that the final (bottom) *index1* is supposed to be *index2*, so in order to fix this I typed `<right>` until I reached *1* and then I typed `<delete><2>` to change it to *2*. Finally,

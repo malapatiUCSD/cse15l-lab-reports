@@ -62,7 +62,7 @@ As you can see, all the tests have now passed!
 
 <h2>Step 9: Commit and push the resulting change to your Github account </h2>
 Because all of the tests passed, we can commit and push the file into the *GitHub* repository by typing `git add *` to select all the files
-in the curretn directory and `git commit -m "updated file"` to take a snapshot of all the changes made to the file and the message 
+in the curretn directory and `git commit -m "new file"` to take a snapshot of all the changes made to the file and the message 
 that you want to put after changing the file. It should look like this:
 
 

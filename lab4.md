@@ -66,8 +66,8 @@ in the curretn directory and `git commit -m "updated file"` to take a snapshot o
 that you want to put after changing the file. It should look like this:
 
 
+<img width="714" alt="Screenshot 2023-06-07 at 11 45 15 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/ab9797f7-28b7-483b-a753-8a360ffcf85f">
 
-<img width="110" alt="Screenshot 2023-06-07 at 11 44 50 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/8cf3bc1a-a979-4e0a-9523-29e8f3d1496f">
 
 
 Finally, I typed `git push` to forward the changes into my repository on GitHub and it should like this:

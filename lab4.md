@@ -1,10 +1,10 @@
 <h1>LAB REPORT 4</h1>
 <h2>Step 4: Log into ieng6</h2>
-<img width="385" alt="image" src="https://github.com/lurany/cse15l-lab-reports/assets/130108693/c87090d8-1233-4f95-aca7-313377d6ba07">
+<img width="1512" alt="Screenshot 2023-06-07 at 10 45 10 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/613b67ed-2eeb-4241-8d0f-19e10b3a023e">
 
 To log into my ieng6 account, I simply just typed:
 
-`$ ssh cs15lsp23xx@ieng6.ucsd.edu <enter>`
+`ssh cs15lsp23xx@ieng6.ucsd.edu <enter>`
 
 in the terminal since `<enter>` allows the terminal to run the command.
 Since I have already set up a **SSH key**, I am able to log into my
@@ -14,7 +14,7 @@ remote account without the need to type my password in.
 
 To clone the repository, I simply copied the link from GitHub and typed:
 
-`$ git clone <link from GitHub> <enter>` 
+`git clone <link from GitHub> <enter>` 
 
 <h2>Step 6: Run the tests, demonstrating that they fail</h2>
 <img width="422" alt="image" src="https://github.com/lurany/cse15l-lab-reports/assets/130108693/bea6afe3-afdf-48a6-a8c8-cb9efd24dc51">

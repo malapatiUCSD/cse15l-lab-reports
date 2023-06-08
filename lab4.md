@@ -4,7 +4,7 @@
 
 To log into my ieng6 account, I simply just typed:
 
-`ssh cs15lsp23xx@ieng6.ucsd.edu <enter>`
+`ssh cs15lsp23lm@ieng6.ucsd.edu <enter>`
 
 in the terminal since `<enter>` allows the terminal to run the command.
 Since I have already set up a **SSH key**, I am able to log into my

@@ -5,11 +5,24 @@
 
 `ListExamples.java` code:
 
-<img width="1512" alt="Screenshot 2023-06-08 at 11 12 07 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/37dd2e9f-acd3-4fc5-aaf6-edb211fae8bb">
+<img width="1512" alt="Screenshot 2023-06-08 at 11 30 18 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/5cbc7d06-1f93-40bc-8a24-d004aaa8d303">
+
 
 The bug/symptom I keep seeing is:
+<img width="1148" alt="Screenshot 2023-06-08 at 11 31 37 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/8d2674bc-706b-4a12-813f-e343f878206f">
+
+After entering the two commands:
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+
+Followed with:
+
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
+
 
 <h3>TA Response</h3>
+Upon examining your code and reviewing the displayed output, it appears that the test failed due to differing array lengths. This suggests the presence of a factor in your code that is influencing the size of the array. Specifically, on line 26, I noticed that the lengths of your index1 and index2 arrays are inconsistent. When utilizing conditional loops to index these arrays, it is generally recommended to begin the indexing from 0. Therefore, it would be advisable to modify the starting value of index1 from 1000 to 0.
+
 There has to be a space before 1 in the condition, because bash thinks `[` is a command. This should fix the bug that is present. The .sh file is bug.sh and it need a space before the 1. That is all that needs to be fixed and you should be good to go!
 <h3>Student Response</h3>
 <h3>Information Needed About The Setup</h3>

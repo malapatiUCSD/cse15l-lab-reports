@@ -1,11 +1,18 @@
 <h1>LAB REPORT 5</h1>
 <h2>Part 1 – Debugging Scenario</h2>
 <h3>Student Question</h3>
-![Image](lab5image1.png)
-![Image](lab5image2.png)
+<img width="1512" alt="Screenshot 2023-06-08 at 11 03 45 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/433a0da6-f30c-4a83-abf5-388193829f15">
+
+`ListExamples.java` code:
+
+<img width="1512" alt="Screenshot 2023-06-08 at 11 12 07 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/37dd2e9f-acd3-4fc5-aaf6-edb211fae8bb">
+
+The bug/symptom I keep seeing is:
+
 <h3>TA Response</h3>
 There has to be a space before 1 in the condition, because bash thinks `[` is a command. This should fix the bug that is present. The .sh file is bug.sh and it need a space before the 1. That is all that needs to be fixed and you should be good to go!
-
+<h3>Student Response</h3>
+<h3>Information Needed About The Setup</h3>
 <h2>Part 2 – Reflection</h2>
 Something cool I learned during the second half of the quarter would be the `grep` commands. I learned this during Lab from week 5 and 6 and from Lab Report 3. It showed me the cool searching techniques of many text files and ways to access specific information using `grep`.
 I learned 4 unique commands: `grep -n`, `grep -l`, `grep -c`, and `grep -i`. They all have super cool funtionalities.

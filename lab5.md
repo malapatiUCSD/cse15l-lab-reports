@@ -35,7 +35,7 @@ Thank you for pointing that out. You were right about the `index1` length, becau
 The file and directory used was `ListExamples.java` in *lab7*. `ListExamples.java` code before debugging with TA:
 <img width="1512" alt="Screenshot 2023-06-08 at 11 30 18 PM" src="https://github.com/malapatiUCSD/cse15l-lab-reports/assets/130113314/5883fd42-ee00-48dd-aba9-728465d715fa">
 
-The commands that I entered was `cd lab7` to enter the directory, `nano ListExamples.java` to access the code file through the terminal and to then change the size of `index1` to a very large number so that it will fail the while loops. In this case it was *100** To fix the bug, you can simply go back to the `ListExamples` file either through the terminal or just clicking the file on the left primary side bar on VScode, and change `index1` size back to **0**. Lastly, you would want to compile and run the tests by using the following commands:
+The commands that I entered was `cd lab7` to enter the directory, `nano ListExamples.java` to access the code file through the terminal and to then change the size of `index1` to a very large number so that it will fail the while loops. In this case it was **100** To fix the bug, you can simply go back to the `ListExamples` file either through the terminal or just clicking the file on the left primary side bar on VScode, and change `index1` size back to **0**. Lastly, you would want to compile and run the tests by using the following commands:
 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
 
